@@ -1,11 +1,13 @@
-### Example user template template
-### Example user template
-
-# IntelliJ project files
-.idea
-*.iml
-out
-gen
-
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
 .coverage
+htmlcov/
 *.db
+
+.idea/
+.vscode/
